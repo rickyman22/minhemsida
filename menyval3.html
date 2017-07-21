@@ -1,0 +1,49 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>Youtube</title>
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body id=youtube>
+ <nav class="nav navbar-inverse navbar-static-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Tv-spel</a>
+                <ul class="nav navbar-nav">
+                    <li><a href="menyval1.html">Favoritspel</a></li>
+                    <li><a href="menyval2.html">Zelda</a></li>
+                    <li><a href="menyval3.html">Youtube</a></li>
+                    <li><a href="menyval4.html">frågesport</a></li>
+                </ul>
+            </div>
+        </nav>
+</div>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5bd3ZFWHu6A?ecver=1" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/z-762tqrcDY?ecver=1" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fq6qcvfZldE?ecver=1" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7S7cTQlJWo4?ecver=1" frameborder="0" allowfullscreen></iframe>
+</body>
+</html>

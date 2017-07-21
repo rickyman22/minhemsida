@@ -1,0 +1,67 @@
+h1{
+	color:orange;
+	font-size:50px;
+}
+ol{
+	font-family: 'Aguafina Script', cursive;
+	font-size: 40px;
+}
+#linkbakgrund {
+	background-image: url("../bilder/link.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 100vh;
+	position: relative;
+}
+#mariobakgrund{
+	background-image: url("../bilder/mario.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 100vh;
+	position: relative;
+}
+.navbar-inverse {
+    background-color: blue;
+}
+.navbar-inverse .navbar-brand {
+    color: orange;
+ font-family: 'Arvo', serif;
+font-size: 40px;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: black;
+     font-family: 'Arvo', serif;
+font-size: 40px;
+}
+.lista{
+	margin-top:150px;
+	margin-left:100px;
+}
+.titel{
+font-family: 'Romanesco', cursive;
+}
+.zelda{
+	font-family: 'Arvo', serif;
+}
+#zeldabakgrund{
+background-color:#00cc00;
+}
+#youtube{
+background-color:#ce0ccb;
+}
+#tre{
+	width: 200px;
+	height:300px;
+}
+#två{
+	width: 300px;
+	height: 300px;
+}
+#ett{
+	width:400px;
+	height:300px;
+}
+.kommentarer{
+	width: 50%;
+	margin: auto;
+}
